@@ -1,3 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+.venv/
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.coverage
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Vite / React
+/dist
+/.cache
+
+# Logs
+logs
+*.log
+
+# Uploaded audio and counters (don't commit large or sensitive audio files)
+backend/uploads/
+backend/.venv/
+backend/.env
+backend/__pycache__/
+backend/.counter
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore API keys and secrets
+*.key
+*.pem
+.env.local
+.env.*.local
+
+# Optional: ignore git stash and local settings
+local.settings.json
+
 # Logs
 logs
 *.log
