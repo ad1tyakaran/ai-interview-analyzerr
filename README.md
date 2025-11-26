@@ -109,5 +109,4 @@ Example analysis response (successful):
 - Add unit/integration tests for parsing model outputs and the upload/convert/analyze pipeline.
 
 ## License
-
-This project is provided as a developer prototype. Add a license if you plan to share it publicly.
+This project is released under the MIT License.
